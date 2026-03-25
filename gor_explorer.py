@@ -38,7 +38,7 @@ def load_data(path: str) -> pd.DataFrame:
 
 import os
 _here = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(_here, "data", "PRB.csv")
+DATA_PATH = os.path.join(_here, "PRB.csv")
 df_raw = load_data(DATA_PATH)
 
 
